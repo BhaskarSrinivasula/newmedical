@@ -1,0 +1,259 @@
+/* General Styles */
+
+/* General Styling */
+body {
+  background-color: #f4f6f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 70px; /* for fixed navbar */
+}
+
+.brand-logo {
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  color: #0d6efd !important;
+}
+
+.hero-section {
+  height: 60vh;
+  background: linear-gradient(135deg, #007bff 0%, #6610f2 100%);
+  padding: 3rem 1rem;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+}
+
+.hero-section p {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-heading {
+  font-weight: 700;
+  color: #0d6efd; /* Bootstrap primary color */
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  color: #444;
+}
+
+/* Cards */
+.service-card, .specialty-card, .testimonial-card {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover, .specialty-card:hover, .testimonial-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(13, 110, 253, 0.3);
+}
+
+.specialty-card {
+  background-color: #e9f0ff;
+  border: none;
+}
+
+.testimonial-card {
+  background-color: #fefefe;
+  border: none;
+}
+
+/* Contact Card */
+.contact-card {
+  background: #f9f9fb;
+  border: 1px solid #ddd;
+  transition: box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+}
+
+.contact-card p {
+  font-size: 1.1rem;
+}
+
+.contact-card h4 {
+  font-weight: 600;
+}
+
+/* Footer */
+.footer {
+  background-color: #212529;
+}
+
+.footer a {
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #0d6efd !important;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  padding-top: 70px; /* To accommodate fixed navbar */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #003366 !important;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #ffffff !important;
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+  margin-left: 15px;
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #ffcc00 !important;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 400px; /* Reduced from 600px */
+  background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-section .btn {
+  background-color: #ffcc00;
+  border: none;
+  color: #003366;
+  font-weight: bold;
+  padding: 10px 25px;
+  transition: background-color 0.3s;
+}
+
+.hero-section .btn:hover {
+  background-color: #e6b800;
+}
+
+/* Section Headings */
+.section-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #003366;
+  position: relative;
+}
+
+.section-heading::after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background-color: #ffcc00;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* Section Descriptions */
+.section-description {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+  color: #555555;
+}
+
+/* Cards */
+.service-card, .specialty-card, .testimonial-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover, .specialty-card:hover, .testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service-card .btn, .testimonial-card .btn {
+  background-color: #003366;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.service-card .btn:hover, .testimonial-card .btn:hover {
+  background-color: #002244;
+}
+
+/* Testimonials */
+.testimonial-card {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.testimonial-card .card-text {
+  font-style: italic;
+  color: #555555;
+}
+
+.testimonial-card .card-title {
+  font-weight: bold;
+  color: #003366;
+}
+
+/* Contact Form */
+#contact form .form-control {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+#contact form .btn {
+  background-color: #003366;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+#contact form .btn:hover {
+  background-color: #002244;
+}
+
+/* Footer */
+.footer {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
