@@ -1,0 +1,138 @@
+{
+  "apollohospital": [
+    {
+      "id": 2,
+      "name": "Ananya Sharma",
+      "age": 30,
+      "gender": "Female",
+      "hospital": "Apollo Hospital",
+      "date": "2025-06-02",
+      "timeSlot": "11:20",
+      "status": "Pending",
+      "email": "prabhatsrinivasula@gmail.com"
+    },
+    {
+      "name": "saranya",
+      "age": "28",
+      "gender": "Male",
+      "email": "Neeraja@gmail.com",
+      "hospital": "apollohospital",
+      "date": "2025-06-02",
+      "timeSlot": "9 AM - 11 AM",
+      "status": "Accepted",
+      "id": 3
+    },
+    {
+      "name": "saranya",
+      "age": "28",
+      "gender": "Female",
+      "email": "Neeraja@gmail.com",
+      "hospital": "apollohospital",
+      "date": "2025-06-02",
+      "timeSlot": "11 AM - 1 PM",
+      "status": "Pending",
+      "id": 4
+    },
+    {
+      "name": "Lakshmi",
+      "age": "80",
+      "gender": "Female",
+      "email": "vinay@gmail.com",
+      "hospital": "apollohospital",
+      "appointmentDate": "2025-06-04",
+      "timeSlot": "4:00 PM",
+      "description": "Heart",
+      "status": "Accepted",
+      "id": 5
+    }
+  ],
+  "fortishospital": [
+    {
+      "name": "Prasad",
+      "age": "36",
+      "gender": "Male",
+      "email": "vinay@gmail.com",
+      "hospital": "fortishospital",
+      "appointmentDate": "2025-06-04",
+      "timeSlot": "4:00 PM",
+      "description": "Blood",
+      "status": "Pending",
+      "id": 1
+    }
+  ],
+  "manipalhospital": [
+    {
+      "name": "Satya",
+      "age": "26",
+      "gender": "Male",
+      "email": "vinay@gmail.com",
+      "hospital": "manipalhospital",
+      "appointmentDate": "2025-06-01",
+      "timeSlot": "11 AM - 1 PM",
+      "status": "Rejected",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Prabhat Srinivasula",
+      "email": "prabhatsrinivasula@gmail.com",
+      "password": "hashedpassword"
+    },
+    {
+      "id": 2,
+      "name": "Ananya Sharma",
+      "email": "ananyasharma@example.com",
+      "password": "hashedpassword"
+    },
+    {
+      "username": "vinay",
+      "email": "vinay@gmail.com",
+      "password": "vinay123",
+      "id": 3
+    },
+    {
+      "username": "Neeru",
+      "email": "Neeraja@gmail.com",
+      "password": "Neeru@123",
+      "id": 4
+    },
+    {
+      "username": "Bhaskar",
+      "email": "abc@example.com",
+       "password": "123456",
+      "id": 5
+    }
+  ],
+  "hospitalStaffLogins": [
+    {
+      "id": 1,
+      "hospital": "Manipal Hospital",
+      "userId": "staff1",
+      "password": "pass123"
+    },
+    {
+      "id": 2,
+      "hospital": "Fortis Hospital",
+      "userId": "staff2",
+      "password": "pass456"
+    },
+    {
+      "id": 3,
+      "hospital": "Apollo Hospital",
+      "userId": "staff3",
+      "password": "pass789"
+    },
+    {
+      "hospital": "Manipal Hospital",
+      "userId": "staff1",
+      "password": "pass123",
+      "id": 4
+    }
+  ],
+  "jest": {
+  "testEnvironment": "jsdom"
+}
+
+}
